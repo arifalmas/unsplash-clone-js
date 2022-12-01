@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link data-react-helmet="true" rel="icon" type="image/png" sizes="32x32" href="https://unsplash.com/favicon-32x32.png"/>
+    <title>Unsplash-Clone-Arif</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <!-- logo here  -->
+    <!-- <svg width="32" height="32" class="hic6U" viewBox="0 0 32 32" version="1.1" aria-labelledby="unsplash-home" aria-hidden="false"><title id="unsplash-home">Unsplash Home</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg> -->
+
+    <!-- header html start  -->
+      <header id="header_ID"> 
+        <div class="nav arifar__flex">
+
+            <div class="logo__div">
+                <a href="./">
+                    <svg width="32" height="32" class="hic6U" viewBox="0 0 32 32" version="1.1" aria-labelledby="unsplash-home" aria-hidden="false"><title id="unsplash-home">Unsplash Home</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg>
+                </a>
+            </div>
+
+            <div style="width:18px;"></div>
+
+            <div class="search__div">
+                <form class="header_form" action="./search.html">
+                    <div class="header_form_search">
+                        <button type="submit"><i class="uil uil-search"></i></button>
+                    </div>
+                    <div class="header_form_input">
+                        <input type="search" name="search" required placeholder="Search free high-resolution photos">
+                    </div>
+                    <div class="header_form_capture">
+                        <i class="uil uil-capture"></i>
+                    </div>
+                </form>
+            </div>
+
+            <div class="short__menu_div">
+                <ul>
+                    <li><a href="javascript:void(0)">Explore</a></li>
+                    <li><a href="javascript:void(0)">Advertise</a></li>
+                    <li><a href="javascript:void(0)">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="__uqj"></div>
+
+            <div class="R_None" style="width:21px"></div>
+
+            <div class="header_Auth_div arifar__flex">
+                <span>
+                    <a href="#" class="p1cWU">Log in</a>
+                </span>
+                <span>/</span>
+                <span>
+                    <a href="#" class="p1cWU">Sign up</a></span>
+            </div>
+
+            <div class="R_None" style="width:8px"></div>
+            <div class="submit_photo_div">
+                <a class="submit_photo_btn p1cWU" href="#">Submit a photo</a>
+            </div>
+            <div style="width:12px"></div>
+            <div class="header__popUp_div arifar__flex">
+                <button class="menuBarher">
+                    <i class="uil uil-bars"></i>
+                </button>
+                <div class="dropDown_subMenu">
+                    <div class="dropdown_group">
+                        <div class="dropdown_Item">
+                            <div>
+                                <div>
+                                    <svg width="24" height="24" class="CnNKA" viewBox="0 0 24 24"><path opacity=".5" d="M2.804 15.477s.142 1.738.175 2.286c.044.735.328 1.556.802 2.126.67.808 1.457 1.093 2.51 1.095 1.236.002 10.231.002 11.468 0 1.052-.002 1.84-.287 2.51-1.095.473-.57.757-1.391.802-2.126.032-.548.174-2.286.174-2.286" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8.496 5.33v-.372c0-1.22.988-2.208 2.208-2.208h2.582c1.219 0 2.208.989 2.208 2.208l.001.372M11.995 16.678v-1.294" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M2.75 8.39v3.466c1.918 1.265 4.216 2.151 6.738 2.502a2.584 2.584 0 012.502-1.908c1.188 0 2.2.807 2.483 1.918 2.532-.35 4.839-1.237 6.767-2.512V8.39a3.05 3.05 0 00-3.057-3.058H5.817A3.06 3.06 0 002.75 8.39z" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </div>
+                                <div><p>Company</p></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">About</a></div>
+                            </div>
+                            <div>
+                                <div></i></div>
+                                <div><a href="#">History</a></div>
+                            </div>
+                            <div>
+                                <div></i></div>
+                                <div><a href="#">Join the team</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Press</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Contact us</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Help Center</a></div>
+                            </div>
+                        </div>
+                        <div class="dropdown_Item">
+                            <div>
+                                <div>
+                                    <svg width="24" height="24" class="CnNKA" viewBox="0 0 24 24"><g clip-rule="evenodd" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 17.5c0-2.625.028-3.5 3.5-3.5s3.5.875 3.5 3.5.011 3.5-3.5 3.5-3.5-.875-3.5-3.5zM3 17.5c0-2.625.028-3.5 3.5-3.5s3.5.875 3.5 3.5.011 3.5-3.5 3.5S3 20.125 3 17.5z"></path><path opacity=".5" d="M14 6.5c0-2.625.028-3.5 3.5-3.5s3.5.875 3.5 3.5.011 3.5-3.5 3.5S14 9.125 14 6.5z"></path><path d="M3 6.5C3 3.875 3.028 3 6.5 3s3.5.875 3.5 3.5.011 3.5-3.5 3.5S3 9.125 3 6.5z"></path></g></svg>
+                                </div>
+                                <div><p>Product</p></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Developers/API</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Unsplash Dataset</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Unsplash for iOS</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Apps & Plugins</a></div>
+                            </div>
+                        </div>
+                        <div class="dropdown_Item">
+                            <div>
+                                <div>
+                                    <svg width="24" height="24" class="CnNKA" viewBox="0 0 24 24"><g stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19.729 14.25c1.35.202 2.294.675 2.294 1.65 0 .671-.445 1.107-1.163 1.381"></path><path clip-rule="evenodd" d="M11.887 14.664c-3.214 0-5.96.487-5.96 2.432 0 1.944 2.729 2.445 5.96 2.445 3.214 0 5.958-.482 5.958-2.428s-2.727-2.45-5.958-2.45z"></path><path d="M4.044 14.25c-1.351.202-2.294.675-2.294 1.65 0 .671.444 1.107 1.162 1.381"></path><g><path opacity=".5" d="M17.888 10.897a2.876 2.876 0 002.472-2.841 2.875 2.875 0 00-2.406-2.836"></path><path opacity=".5" clip-rule="evenodd" d="M11.887 11.888a3.819 3.819 0 10-3.82-3.82 3.804 3.804 0 003.792 3.82h.028z"></path><path opacity=".5" d="M5.885 10.897a2.875 2.875 0 01-2.472-2.841A2.875 2.875 0 015.819 5.22"></path></g></g></svg>
+                                </div>
+                                <div><p>Community</p></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Become a Contributor</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Topics</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Collections</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Trends</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Unsplash Awards</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Stats</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div>
+                                    <div>
+                                        <a href="https://twitter.com/freelancerarifx" target="_blank"><i class="uil uil-twitter"></i></a>
+                                        <a href="https://www.facebook.com/freelancerarifar/" target="_blank"><i class="uil uil-facebook"></i></a>
+                                        <a href="https://www.instagram.com/freelancerarifar/" target="_blank"><i class="uil uil-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown_Item">
+                            <div>
+                                <div>
+                                    <svg width="24" height="24" class="CnNKA" viewBox="0 0 24 24"><path opacity=".5" d="M15.716 16.223h-7.22M15.716 12.037h-7.22M11.251 7.86H8.496" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M15.909 2.75l-7.69.004c-2.76.017-4.468 1.833-4.468 4.603v9.196c0 2.784 1.722 4.607 4.506 4.607l7.689-.003c2.76-.017 4.47-1.834 4.47-4.604V7.357c0-2.784-1.723-4.607-4.507-4.607z" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </div>
+                                <div><p>Legal</p></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">License</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Privacy Policy</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Terms</a></div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div><a href="#">Security</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="R_None__700">
+                            <a href="#">License</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Security</a>
+                        </div>
+                        <div class="mobile_repons">
+                            <a href="#" class="submit_photo_btn"> submit a photo </a>
+                            <a href="#" class="submit_photo_btn"> log in </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/in/freelancerarifar/" target="_blank">@freelancerarifar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>  
+    <!-- header html end  -->
+
+    <!-- sub menu html start  -->
+     <section id="submenu_ID">
+        <div class="submenu_container">
+            <div class="submenu_group arifar__flex">
+                <div class="submenu__item__div">
+                    <ul class="submenu__ui arifar__flex">
+                        <li>
+                            <a href="javascript:void(0)" class="btn__active javascript__void ">
+                                <span><small></small></span>
+                                <span>Editorial</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)" class="#">
+                                <span><small></small></span>
+                                <span>Following</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="__uqj submenu__item__div"></div>
+                </div>
+                <div class="submenu__item__div">
+                    <ul class="submenu__ui arifar__flex">
+                    
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Current Events" />
+                                        <span>Current Events</span>
+                                       </form>
+                                </span>
+                            </a>
+                                
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Wallpapers" />
+                                        <span>Wallpapers</span>
+                                       </form>
+                                </span>
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="3D Renders" />
+                                        <span>3D Renders</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Textures Patterns" />
+                                        <span>Textures & Patterns</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Experimental" />
+                                        <span>Experimental</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Architecture" />
+                                        <span>Architecture</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Nature" />
+                                        <span>Nature</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Fashion" />
+                                        <span>Fashion</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Food Drink" />
+                                        <span>Food & Drink</span>
+                                       </form>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Health Wellness" />
+                                        <span>Health & Wellness</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Interiors" />
+                                        <span>Interiors</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Street Photography" />
+                                        <span>Street Photography</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Travel" />
+                                        <span>Travel</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Animals" />
+                                        <span>Animals</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Spirituality" />
+                                        <span>Spirituality</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                          
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="History" />
+                                        <span>History</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span></span>
+                                <span>
+                                    <form action="./search.html" class="menusearch" onClick={myFunction} >
+                                        <input type="text" name="search" value="Athletics" />
+                                        <span>Athletics</span>
+                                       </form>
+                                </span>
+                                
+                                
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        <div>
+    </section> 
+    <!-- sub menu html end  -->
+
+    <!-- Banner html start  -->
+      <section id="banner__ID">
+        <div class="container">
+            <div class="banner_group">
+                <div class="banner__item arifar__flex">
+                    <div>
+                        <h1 class="app__title">Unsplash</h1>
+                    </div>
+                    <div>
+                        <p>The internet’s source of</p>
+                        <a href="#">
+                            <span>freely-usable images</span>
+                        </a>.
+                    </div>
+                    <div>
+                        <p>Powered by creators everywhere.</p>
+                    </div>
+                    <div class="R_None">
+                        <div class="search__div">
+                            <form class="header_form" action="./search.html">
+                                <div class="header_form_search">
+                                    <button type="submit"><i class="uil uil-search"></i></button>
+                                </div>
+                                <div class="header_form_input">
+                                    <input type="search" name="search" required placeholder="Search free high-resolution photos">
+                                </div>
+                                <div class="header_form_capture">
+                                    <i class="uil uil-capture"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="R_None">    
+                        <ul class="arifar__flex">
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="banner__footer__div">
+            <div class="R_None">
+               <div>
+                    <a href="#">
+                        <img src="./asserts/img/squarespace.svg" alt="">
+                    </a>
+               </div>
+               <div>
+                   <div>
+                    <span><a class="small" href="javascript:void(0)">This design create by </a> </span>
+                    <span class="small">by </span>
+                    <span><a class="small" target="_blank" href="https://www.linkedin.com/in/freelancerarifar/">Arif Almas</a></span>
+                   </div>
+               </div>
+            </div>
+            <div class="R_None">
+                <div>
+                    <a href="#">
+                        <img src="./asserts/img/squarespace.svg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <div>
+                        <span class="small">Read more about the </span>
+                        <span><a class="small" href="https://www.linkedin.com/in/freelancerarifar/" target="_blank">Arif Almas</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="small">
+                <div>
+                    <a href="#">
+                        <img src="./asserts/img/squarespace.svg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <span><a class="small" href="https://www.linkedin.com/in/freelancerarifar/" target="_blank">All you need to create a website.</a></span>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- Banner html end  -->
+    
+    <!-- images all body html start -->
+      <section id="images__ID">
+        <div class="container">
+            <div class="images_group_div">
+                <div class="images_group">
+
+                    <div class="images_item_div" id="photo__one_row">
+
+                    </div>
+
+                    <div class="images_item_div" id="photo__two_row">
+                        
+                    </div>
+
+                    <div class="images_item_div" id="photo__three_row">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- images all body html end -->
+
+    <!-- model fly div start -->
+    <div class="model_main__Div" id="model__ID">
+        <button>
+            <i class="uil uil-times" id="closeDown"></i>
+        </button>
+        <button>
+            <i class="uil uil-angle-left-b" id="left"></i>
+        </button>
+        <button>
+            <i class="uil uil-angle-right-b" id="right"></i>
+        </button>
+        <div class="model">
+            <div class="model_header flex">
+                <div>
+                    <div>
+                        <a href="#">
+                            <img class="userImg_C" src="/img/banner.avif" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span class="username_C">Windows</span>
+                        </a>
+                        <a href="#">
+                            <span class="small location_C">Closer to what you love</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button>
+                            <i class="uil uil-heart-alt"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <i class="uil uil-plus"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <div>
+                            <button class="download"> Download free </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="model_body_div">
+                    <div class="model_body">
+                        <div class="model_body_img body_img_control">
+                            <img class="mainImg_C zoomIN" src="/img/banner.avif" alt="ds">
+                        </div>
+                        <div class="model_body_des">
+                            <div>
+                                <div>
+                                    <p>Views</p>
+                                    <span>__</span>
+                                </div>
+                                <div>
+                                    <p>Downloads</p>
+                                    <span>1,308</span>
+                                </div>
+                                <div>
+                                    <p>Featured in</p>
+                                   <span> <a href="#">Business & Work</a></span>
+                                </div>
+                            </div>
+                            <div>
+                                <button id="shareCommunity">
+                                    <span> <i class="uil uil-share"></i> </span>
+                                    <span> share </span>
+                                </button>
+                                <button>
+                                    <span> <i class="uil uil-info-circle"></i> </span>
+                                    <span> info </span>
+                                </button>
+                                <button>
+                                    <span> <i class="uil uil-ellipsis-h"></i> </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="model_auth_div">
+                    <ul>
+                        <li><i class="uil uil-calendar-alt"></i></li>
+                        <li>Published on August 24, 2020</li>
+                    </ul>
+                    <ul>
+                        <li><i class="uil uil-camera"></i></li>
+                        <li>Canon, EOS 5D Mark IV</li>
+                    </ul>
+                    <ul>
+                        <li><i class="uil uil-comment-verify"></i></li>
+                        <li>Free to use under the Unsplash License</li>
+                    </ul>
+                </div>
+                <div class="model_related_photos">
+                    <p>Related photos</p>
+                    <div class="images_group_div">
+                        <div class="images_group">
+                            <div class="images_item_div" id="related_row_one">
+                               
+                            </div>
+                            <div class="images_item_div" id="related_row_two">
+                                
+                            </div>
+                            <div class="images_item_div" id="related_row_three">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="model_tag_div">
+                    <p>Related tag</p>
+                    <div class="tag_group">
+                        <a href="#">outdoor</a>
+                        <a href="#">grey</a>
+                        <a href="#">wallpaper</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- model fly div end -->
+    
+        <footer>
+            <div class="container">
+                create by <a href="https://github.com/arifalmas" target="_blank">@arifalmas</a>
+            </div>
+        </footer>
+    
+        <script src="./js/app.js"></script>
+    </body>
+    </html>
+    

@@ -1,0 +1,123 @@
+@media only screen and (max-width: 767px) {
+    .short__menu_div, .__uqj, .header_Auth_div, .submit_photo_div, .R_None{
+        display: none !important;
+    }
+    .app__title{
+        font-size: 24px;
+    }
+    #banner__ID p, #banner__ID a{
+        font-size: 15px;
+    }
+    .banner_group{
+        padding: 80px 12px 62px 12px !important;
+    }
+    #banner__ID .banner__item{
+        margin: 0px;
+        width: 100%;
+    }
+    #banner__ID{
+        height: auto !important;
+    }
+    #banner__ID .banner__item > div:first-child, #banner__ID .banner__item > div:nth-child(3) {
+        margin-bottom: 7px;
+    }
+    .banner__footer__div{
+        padding: 10px 20px;
+    }
+    .banner__footer__div > div > div{
+        justify-content: unset;
+    }
+    .banner__footer__div > div > div img{
+        width: 120px;
+    }
+    .banner__footer__div > div > div a{
+        display: flex;
+    }
+    svg.hic6U {
+        width: 26px;
+        height: 26px;
+    }
+    .images_group {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .dropDown_subMenu .dropdown_group{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .dropdown_Item{
+        height: 40px;
+        overflow: hidden;
+        width: 180px;
+        max-width: 95%;
+    }
+    .dropdown_Item.active{
+        height: auto;
+    }
+    .dropDown_subMenu .dropdown_group .dropdown_Item:last-child{
+        display: block;
+    }
+    .mobile_repons{
+        display: flex !important;
+    }
+    .R_None__700{
+        display: none !important;
+    }
+    .dropDown_subMenu > div:nth-child(2){
+        flex-direction: column;
+    }
+    .dropDown_subMenu > div:nth-child(2){
+        gap: 14px;
+    }
+    .model_body_des{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+    .model_body_des > div:first-child{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .model{
+        width: 100% !important;
+        margin: 52px auto;
+    }
+    .model_main__Div > button:nth-child(2), .model_main__Div > button:nth-child(3){
+        display: none;
+    }
+    .mainImg_C.zoomIN{
+        height: auto !important;
+    }
+    
+}
+
+@media only screen and (max-width: 520px) {
+    .images_group {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .model_header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
